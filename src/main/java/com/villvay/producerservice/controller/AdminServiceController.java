@@ -26,6 +26,7 @@ public class AdminServiceController {
     @PostMapping("/addUser")
     public CompanyUser addUser(@RequestBody CompanyUser companyUser) {
 
+        
         return adminService.addUser(companyUser);
     }
 
