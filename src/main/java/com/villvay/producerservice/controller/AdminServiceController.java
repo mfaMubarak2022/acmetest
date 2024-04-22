@@ -33,7 +33,7 @@ public class AdminServiceController {
     @DeleteMapping("/deleteUser/{userName}")
     public int deleteUser(@PathVariable("userName") String userName) {
 
-//int EWFGG;
+int EWFGG;
         
         return adminService.deleteUser(userName);
     }
